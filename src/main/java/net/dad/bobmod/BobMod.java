@@ -3,6 +3,7 @@ package net.dad.bobmod;
 import com.mojang.logging.LogUtils;
 import net.dad.bobmod.Item.ModCreativeModTabs;
 import net.dad.bobmod.Item.ModItems;
+import net.dad.bobmod.block.ModBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,8 @@ public class BobMod
     public BobMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModBlocks.register(modEventBus);
 
         ModCreativeModTabs.register(modEventBus);
 

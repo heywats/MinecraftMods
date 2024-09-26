@@ -1,5 +1,7 @@
 {
   "item.bobmod.sapphire": "Sapphire",
   "item.bobmod.raw_sapphire": "Raw Sapphire",
+  "block.bobmod.sapphire_block" : "Block of Sapphire",
+  "block.bobmod.raw_sapphire_block" : "Block of Raw Sapphire",
   "creativetab_bob_tab" : "Sapphire Tab"
 }

@@ -1,6 +1,5 @@
 package net.dad.bobmod.Item;
 
-import com.google.common.eventbus.EventBus;
 import net.dad.bobmod.BobMod;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
